@@ -1,14 +1,14 @@
 {
   "name": "standard-emakina",
   "description": "All the goodness of `feross/standard` customised for emakina.",
-  "version": "9.2.1",
+  "version": "9.2.2",
   "author": {
     "email": "flettre@gmail.com",
     "name": "Dan Flettre",
     "url": "http://twitter.com/flettre"
   },
   "bin": {
-    "semistandard": "./bin/cmd.js"
+    "standard": "./bin/cmd.js"
   },
   "bugs": {
     "url": "https://github.com/garth/standard-emakina/issues"
