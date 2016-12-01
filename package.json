@@ -1,7 +1,7 @@
 {
   "name": "standard-emakina",
   "description": "All the goodness of `feross/standard` customised for emakina.",
-  "version": "9.2.2",
+  "version": "9.2.3",
   "author": {
     "email": "flettre@gmail.com",
     "name": "Dan Flettre",
@@ -14,14 +14,14 @@
     "url": "https://github.com/garth/standard-emakina/issues"
   },
   "dependencies": {
-    "eslint": "~3.7.1",
-    "eslint-config-standard": "6.2.0",
+    "eslint": "~3.11.1",
+    "eslint-config-standard": "6.2.1",
     "eslint-config-standard-jsx": "3.2.0",
-    "eslint-plugin-promise": "~3.0.0",
-    "eslint-plugin-react": "~6.4.1",
+    "eslint-plugin-promise": "~3.4.0",
+    "eslint-plugin-react": "~6.7.1",
     "eslint-plugin-standard": "~2.0.1",
     "standard-emakina-format": "^3.0.1",
-    "standard-engine": "~5.1.0"
+    "standard-engine": "~5.3.0"
   },
   "devDependencies": {
     "merge": "^1.2.0",
