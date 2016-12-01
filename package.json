@@ -1,7 +1,7 @@
 {
-  "name": "semistandard",
-  "description": "All the goodness of `feross/standard` with semicolons sprinkled on top.",
-  "version": "9.1.0",
+  "name": "standard-emakina",
+  "description": "All the goodness of `feross/standard` customised for emakina.",
+  "version": "9.2.0",
   "author": {
     "email": "flettre@gmail.com",
     "name": "Dan Flettre",
@@ -11,17 +11,16 @@
     "semistandard": "./bin/cmd.js"
   },
   "bugs": {
-    "url": "https://github.com/Flet/semistandard/issues"
+    "url": "https://github.com/garth/standard-emakina/issues"
   },
   "dependencies": {
     "eslint": "~3.7.1",
-    "eslint-config-semistandard": "7.0.0",
     "eslint-config-standard": "6.2.0",
     "eslint-config-standard-jsx": "3.2.0",
     "eslint-plugin-promise": "~3.0.0",
     "eslint-plugin-react": "~6.4.1",
     "eslint-plugin-standard": "~2.0.1",
-    "semistandard-format": "^3.0.0",
+    "standard-emakina-format": "^3.0.0",
     "standard-engine": "~5.1.0"
   },
   "devDependencies": {
@@ -33,39 +32,12 @@
     "tape": "^4.6.0",
     "xtend": "^4.0.0"
   },
-  "homepage": "https://github.com/Flet/semistandard",
-  "keywords": [
-    "JavaScript Standard Style",
-    "bikeshed",
-    "check",
-    "checker",
-    "code",
-    "code checker",
-    "code linter",
-    "code standards",
-    "code style",
-    "enforce",
-    "eslint",
-    "hint",
-    "jscs",
-    "jshint",
-    "lint",
-    "policy",
-    "quality",
-    "semicolon",
-    "simple",
-    "standard",
-    "standard style",
-    "style",
-    "style checker",
-    "style linter",
-    "verify"
-  ],
+  "homepage": "https://github.com/garth/standard-emakina",
   "license": "MIT",
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Flet/semistandard.git"
+    "url": "https://github.com/garth/standard-emakina.git"
   },
   "scripts": {
     "test": "standard && tape test/*.js"

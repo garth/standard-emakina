@@ -1,3 +1,12 @@
 {
-   "extends": ["semistandard", "standard-jsx"]
+   "extends": ["standard", "standard-jsx"],
+
+   "rules": {
+     "indent": [2, 4],
+     "semi": [2, "always"],
+     "no-extra-semi": 2,
+     "semi-spacing": [2, { "before": false, "after": true }],
+     "react/jsx-indent-props": [2, 4],
+     "react/jsx-indent": [2, 4]
+   }
 }

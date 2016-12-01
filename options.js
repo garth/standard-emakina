@@ -3,15 +3,15 @@ var pkg = require('./package.json')
 
 module.exports = {
   // cmd, homepage, bugs all pulled from package.json
-  cmd: 'semistandard',
+  cmd: 'standard-emakina',
   version: pkg.version,
   homepage: pkg.homepage,
   bugs: pkg.bugs.url,
-  tagline: 'Semicolons For All!',
+  tagline: 'I did it my way',
   eslint: require('eslint'),
   eslintConfig: {
     configFile: path.join(__dirname, 'eslintrc.json')
   },
-  formatter: require('semistandard-format'),
-  formatterName: 'semistandard-format'
+  formatter: require('standard-emakina-format'),
+  formatterName: 'standard-emakina-format'
 }
